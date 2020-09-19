@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
+googleAnalytics = "UA-178435018-1"
 
 [params]
   contentTypeName = "posts"

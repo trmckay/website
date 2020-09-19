@@ -1,9 +1,14 @@
-# Welcome to my website #
+---
+title: "Welcome to my site"
+author: ""
+cover: "img/myself.jpeg"
+---
 
+# Welcome #
 My name is Trevor McKay.
 
-# About me #
-I am a student pursuing a degree in Computer Engineering
-with a minor in German Language and Culture. My interests
-and experiences lie in HDL, embedded systems, and systems
-programming.
+**Find me elsewhere**: [LinkedIn](https://www.linkedin.com/in/trevor-mckay-1602a5180/),
+[GitHub](https://github.com/trmckay), [Email](mailto:trs.mckay@gmail.com)
+
+![image](/img/myself.jpeg)
+

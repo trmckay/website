@@ -1,3 +1,0 @@
-[submodule "themes/hello-friend"]
-	path = themes/hello-friend
-	url = git@github.com:trmckay/hugo-theme-hello-friend.git

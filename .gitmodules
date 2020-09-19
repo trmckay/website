@@ -1,0 +1,9 @@
+[submodule "themes/darksimplicity"]
+	path = themes/darksimplicity
+	url = https://github.com/kritoke/darksimplicity.git
+[submodule "themes/hello-friend"]
+	path = themes/hello-friend
+	url = https://github.com/panr/hugo-theme-hello-friend.git
+[submodule "public"]
+	path = public
+	url = git@github.com:trmckay/trmckay.github.io.git

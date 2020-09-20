@@ -8,6 +8,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 # Update from upstream
 cd public
 git pull
+cd ..
 
 # Build the project.
 hugo -t hello-friend

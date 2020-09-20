@@ -5,13 +5,15 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
+# Update from upstream
+cd public
+git pull
+
 # Build the project.
 hugo -t hello-friend
 
-# Go To Public folder
-cd public
-
 # Add changes to git.
+cd public
 git add .
 
 # Commit changes.

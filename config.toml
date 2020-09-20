@@ -7,7 +7,7 @@ googleAnalytics = "UA-178435018-1"
 [params]
   contentTypeName = "posts"
   defaultTheme = "dark"
-  showMenuItems = 2
+  showMenuItems = 5
   showReadingTime = false
 
 [languages]
@@ -39,3 +39,10 @@ googleAnalytics = "UA-178435018-1"
         identifier = "posts"
         name = "Posts"
         url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "LinkedIn"
+        name = "LinkedIn"
+        url = "https://www.linkedin.com/in/trevor-mckay-1602a5180/"
+      [[languages.en.menu.main]]
+        identifier = "GitHub"
+        name = "GitHub"

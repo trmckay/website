@@ -46,3 +46,4 @@ googleAnalytics = "UA-178435018-1"
       [[languages.en.menu.main]]
         identifier = "GitHub"
         name = "GitHub"
+        url = "https://github.com/trmckay"

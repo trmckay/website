@@ -82,7 +82,7 @@ DESTINATIONS[1]="/mnt/hdd0/backups/daily"
 
 for CURR_SOURCE in "${SOURCES[@]}"; do
     for CURR_DEST in "${DESTINATIONS[@]}"; do
-        rsync -a --quiet --delete $CURR_SOURCE $CURR_DEST
+        rsync -a --quiet --delete $CURR_SOURCE $CURR_DEST/$(dirname $CURR_SOURCE)
     done
 done
 ```
@@ -204,7 +204,7 @@ echo "Synchronizing sources to destinations..."
 for CURR_SOURCE in "${TARGETS[@]}"; do
     for CURR_DEST in "${DESTINATIONS[@]}"; do
         mkdir -p $CURR_DEST/$CURR_SOURCE
-        rsync -a --quiet --delete $CURR_SOURCE $CURR_DEST > /dev/null &
+        rsync -a --quiet --delete $CURR_SOURCE $CURR_DEST/$(dirname $CURR_SOURCE) > /dev/null &
     done
 done
 wait

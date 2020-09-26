@@ -1,1 +1,1 @@
-hugo server -t hello-friend > server.log &
+hugo server -t hello-friend -D > server.log &

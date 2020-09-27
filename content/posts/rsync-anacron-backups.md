@@ -1,5 +1,6 @@
 ---
 title: "Automated backups with _rsync_, _anacron_, and the cloud"
+date: 2020-09-18T16:22:55-07:00
 draft: false
 ---
 

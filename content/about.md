@@ -7,7 +7,7 @@ cycling and volleyball!
 ![Example image](/img/myself2.jpg)
 
 I am currently looking for work! Here is some of my relevent experience and skills, at a glance. Of course, you can always
-just [email me](trs.mckay@gmail.com) if you'd rather have my resume.
+just [email me](mailto:trs.mckay@gmail.com) if you'd rather have my resume.
 
 ### Education ###
 **California Polytechnic State University, San Luis Obispo** _(2018 - 2022)_\

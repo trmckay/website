@@ -4,4 +4,4 @@ I am a student pursuing a degree in Computer Engineering with a minor in German 
 Culture. I like hardware design, FPGAs, RISC-V, Rust, and Linux. I also like the outdoors,
 cycling and volleyball!
 
-[I am open for work!](static/trmckay_resume.pdf)
+[I am open for work!](https://www.trmckay.com/trmckay_resume.pdf)

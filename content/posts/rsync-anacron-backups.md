@@ -4,7 +4,7 @@ date: 2020-09-18T16:22:55-07:00
 draft: false
 ---
 
-Anyone using Linux as their daily driver knows how devastating it can be to lose all your personal
+Everyone knows how devastating it can be to lose all your personal
 and configuration files to hardware failure. As such, most users have some way to keep their files
 safe. Many choose to use some sort of dotfile management system. This is is a great choice as it
 allows for version control and branches for multiple machines. However, dotfiles are not the only

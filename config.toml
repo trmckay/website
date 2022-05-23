@@ -42,7 +42,7 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "tmckay.dev"
-  Content = "`let this_site: MaybeUninit<Blog>;`"
+  Content = "`let this_site: MaybeUninit<Site>;`"
 
   [[params.socialIcons]]
   name = "github"

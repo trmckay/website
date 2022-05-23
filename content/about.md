@@ -1,20 +1,16 @@
 ---
-layout: default
 title: "About"
-permalink: /about/
 ---
 
-I am a student pursuing a degree in Computer Engineering.
-I am interested in computer architecture, embedded devices,
-RISC-V, Rust, self-hosting, and Linux.
+I like to experiment with RISC-V, Linux, Rust, and some other things.
 
 ## Links
 
 - [GitHub](https://github.com/trmckay)
-- [LinkedIn](https://www.linkedin.com/in/trevor-mckay-1602a5180/)
+- [LinkedIn](https://www.linkedin.com/in/trmckay/)
 
 ## This site
 
 - [Source](https://github.com/trmckay/website)
-- [Jekyll](https://jekyllrb.com/)
-- [Tale](https://github.com/chesterhow/tale)
+- [Hugo](https://gohugo.io/)
+- [PaperMod](https://adityatelange.github.io/hugo-PaperMod/)

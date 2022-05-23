@@ -1,0 +1,16 @@
+blog.trmckay.com {
+    redir https://tmckay.dev
+}
+
+blog.tmckay.dev {
+    redir https://tmckay.dev
+}
+
+tmckay.dev {
+    tls {
+        dns cloudflare {env.CF_API_TOKEN}
+    }
+
+    root * /srv
+    file_server browse
+}

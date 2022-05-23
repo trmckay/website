@@ -1,0 +1,85 @@
+baseURL = 'https://tmckay.dev/'
+languageCode = 'en-us'
+title = 'tmckay.dev'
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "tmckay.dev"
+description = "Almost a programming blog"
+keywords = [ "Blog", "Portfolio" ]
+author = "Trevor McKay"
+DateFormat = "2006-01-02"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = false
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  [params.label]
+  text = "~/"
+
+  [params.homeInfoParams]
+  Title = "tmckay.dev"
+  Content = "`let this_site: MaybeUninit<Blog>;`"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/trmckay"
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:contact@tmckay.dev"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20

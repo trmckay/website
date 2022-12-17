@@ -49,6 +49,10 @@ tocopen = false
   url = "https://github.com/trmckay"
 
   [[params.socialIcons]]
+  name = "mastodon"
+  url = "https://hachyderm.io/@tmckay"
+
+  [[params.socialIcons]]
   name = "email"
   url = "mailto:contact@tmckay.dev"
 

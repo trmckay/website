@@ -1,0 +1,27 @@
+version: "3.7"
+
+services:
+  thumbsup:
+    image: ghcr.io/thumbsup/thumbsup
+    container_name: thumbsup
+    volumes:
+      - ./config.json:/config.json:ro
+      - ./custom.css:/custom.css:ro
+      - ./input:/input:ro
+      - ./state/output:/output
+    command: thumbsup --config /config.json
+  caddy:
+    build: "."
+    container_name: caddy
+    environment:
+      - CADDY_DOCKER_CADDYFILE_PATH=/etc/caddy/Caddyfile
+      - CF_API_TOKEN=${CADDY_CF_API_TOKEN}
+      - CF_DOMAIN=${CADDY_CF_DOMAIN}
+    network_mode: host
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./state/caddy:/data
+      - ./state/output:/srv
+    depends_on:
+      - thumbsup
+    restart: unless-stopped

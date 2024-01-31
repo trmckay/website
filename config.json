@@ -1,0 +1,11 @@
+{
+    "input": "/input",
+    "output": "/output",
+    "title": "photos",
+    "thumb-size": 150,
+    "large-size": 1500,
+    "photo-download": "copy",
+    "video-download": "resize",
+    "theme": "cards",
+    "theme-style": "/custom.css"
+}

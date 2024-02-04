@@ -6,7 +6,7 @@ services:
     container_name: thumbsup
     volumes:
       - ./config.json:/config.json:ro
-      - ./custom.css:/custom.css:ro
+      - ./custom.less:/custom.less:ro
       - ./input:/input:ro
       - ./state/output:/output
     command: thumbsup --config /config.json

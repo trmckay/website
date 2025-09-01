@@ -15,8 +15,7 @@ services:
     container_name: caddy
     environment:
       - CADDY_DOCKER_CADDYFILE_PATH=/etc/caddy/Caddyfile
-      - CF_API_TOKEN=${CADDY_CF_API_TOKEN}
-      - CF_DOMAIN=${CADDY_CF_DOMAIN}
+      - CLOUDFLARE_API_TOKEN=${CLOUDFLARE_API_TOKEN}
     network_mode: host
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro

@@ -1,10 +1,14 @@
-photos.{env.CF_DOMAIN} {
+tmckay.com {
     tls {
-        dns cloudflare {env.CF_API_TOKEN}
+        dns cloudflare {$CLOUDFLARE_API_TOKEN}
         resolvers "1.1.1.1"
     }
     file_server {
         root /srv
         browse
     }
+}
+
+www.tmckay.com {
+    redir https://tmckay.com{http.request.uri.path} permanent
 }

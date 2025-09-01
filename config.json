@@ -2,8 +2,8 @@
     "input": "/input",
     "output": "/output",
     "title": "Trevor McKay",
-    "home-album-name": "Photos",
-    "footer": "<center><br><p>© Trevor McKay, 2024</p><br><p>photos(at)trmckay(dot)com</p><br><p>All images licenced under <a href=https://creativecommons.org/licenses/by/4.0/>CC 4.0 Attribution</a></p><br><p><a href=https://github.com/trmckay/photos>Site source code</a></p></center>",
+    "home-album-name": "photos",
+    "footer": "<center><br><p>© Trevor McKay, 2024</p><br><p><a href=https://creativecommons.org/licenses/by/4.0/>CC 4.0 Attribution</a></p>",
     "thumb-size": 200,
     "large-size": 1500,
     "photo-quality": 100,
@@ -12,5 +12,6 @@
     "theme": "flow",
     "theme-style": "custom.less",
     "cleanup": true,
-    "embed-exif": true
+    "embed-exif": false,
+    "sort-media-direction": "desc"
 }

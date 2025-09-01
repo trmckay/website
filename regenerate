@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+cd "$(git rev-parse --show-toplevel)"
+
+docker-compose down
+
+(cd input && exiftool '-FileName<${CreateDate}.%e' -d %Y-%m-%d_%H-%M-%S *.jpeg)
+
+docker-compose up -d

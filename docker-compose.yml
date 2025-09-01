@@ -18,6 +18,7 @@ services:
       - CLOUDFLARE_API_TOKEN=${CLOUDFLARE_API_TOKEN}
     network_mode: host
     volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - ./state/caddy:/data
       - ./state/output:/srv
